@@ -1,6 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "imageAndWord.h"
-#include <xstring>
 #include <windows.h>
 
 
@@ -26,22 +25,21 @@ int main()
     char answ;
     bool flag;
     
-
     do
     {
         wordID = getNextRandom(66);
     } while (wordID < 0);
 
     for (int i = 0; i < words[wordID].size(); i++)
-        secret += "_";
-    cout << secret << "\n" << words[wordID] << "\n";
+        secret += " _";
+    cout << words[wordID] << "\n";
     
     do
     {
+        cout << ASCII[err] << secret << "\nВведенные буквы " << data;
         cout << "\nВведите букву: ";
         cin >> answ;
-        system("cls");
-        for (size_t i = 0; i < data.size(); i++)
+        for (size_t i = 0; i <= data.size(); i++)
         {
             if (answ == data[i])
             {
@@ -58,12 +56,24 @@ int main()
 
             if (answ == (char)words[wordID][i] && flag)
             {
-                cout << "correct\n";
+
                 count++;
-                secret[i] = answ;
+                secret[i*2+1] = answ;
             }
         }
-        data += answ;
-        cout << secret << "\nВведенные буквы " << data;
-    } while (count != words[wordID].size());
+        system("cls");
+        data = data + answ + " ";
+        err++;
+    } while (count < words[wordID].size() || err < 9);
+
+    system("cls");
+
+    if (count == words[wordID].size())
+    {
+        cout << "Победа";
+    }
+    else
+    {
+        cout << "не Победа";
+    }
 }
