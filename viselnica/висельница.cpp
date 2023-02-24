@@ -24,6 +24,7 @@ int main()
     string secret = "", data = "",trying = "";
     char answ;
     bool flag;
+    float temp = 0;
     
     do
     {
@@ -32,11 +33,11 @@ int main()
 
     for (int i = 0; i < words[wordID].size(); i++)
         secret += " _";
-    cout << words[wordID] << "\n";
+    //cout << words[wordID] << "\n";
     
     do
     {
-        cout << ASCII[err] << secret << "\n¬веденные буквы " << data;
+        cout << image[err] << secret << "\n¬веденные буквы " << data;
         cout << "\n¬ведите букву: ";
         cin >> answ;
         for (size_t i = 0; i <= data.size(); i++)
@@ -60,11 +61,16 @@ int main()
                 count++;
                 secret[i*2+1] = answ;
             }
+            else
+            {
+                temp += 1.f / words[wordID].size();
+            }
         }
         system("cls");
         data = data + answ + " ";
-        err++;
-    } while (count < words[wordID].size() || err < 9);
+        err+=temp/1;
+        temp = 0;
+    } while (count != words[wordID].size() && err < 9);
 
     system("cls");
 
