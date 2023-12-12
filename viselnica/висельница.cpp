@@ -37,7 +37,7 @@ int main()
 
         for (int i = 0; i < words[wordID].size(); i++)
             secretWord += " _";
-        cout << words[wordID] << endl;
+        //cout << words[wordID] << endl;
 
         do
         {
