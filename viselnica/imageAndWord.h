@@ -1,7 +1,7 @@
 #pragma once
 #include<iostream>
 using namespace std;
-string ASCII[] = {
+string image[] = {
 "\n * ---- *"
 "\n       |"
 "\n       |"
