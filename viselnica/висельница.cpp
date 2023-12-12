@@ -81,11 +81,11 @@ int main()
 
         if (count == words[wordID].size())
         {
-            cout << "Победа" << endl;
+            cout << "ура,победа с:" << endl;
         }
         else
         {
-            cout << "не Победа" << endl << "Правильный ответ:" << words[wordID] << endl;
+            cout << "жаль, но не победа :с" << endl << "Правильный был ответ:" << words[wordID] << endl;
         }
         system("pause");
     }
