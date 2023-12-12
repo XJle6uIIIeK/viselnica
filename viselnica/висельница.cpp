@@ -94,64 +94,64 @@ int main()
 
 void programStarting()
 {
-    std::cout << "\b\b\b\b\b\b\b\b\b\bL         " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bL         " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLO        " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLO        " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoA       " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoA       " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoaD      " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoaD      " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoadI     " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoadI     " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoadiN    " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoadiN    " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoadinG   " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoadinG   " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoading.  " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoading.  " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoading.." << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoading.." << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoading..." << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoading..." << flush;
     Sleep(100);
 
     for (size_t i = 0; i < 4; i++)
     {
-        std::cout << "\b\b\b\b\b\b\b\b\b\bLoading.. " << std::flush;
+        cout << "\b\b\b\b\b\b\b\b\b\bLoading.. " << flush;
         Sleep(200);
-        std::cout << "\b\b\b\b\b\b\b\b\b\bLOading.  " << std::flush;
+        cout << "\b\b\b\b\b\b\b\b\b\bLOading.  " << flush;
         Sleep(200);
-        std::cout << "\b\b\b\b\b\b\b\b\b\bLoAding.. " << std::flush;
+        cout << "\b\b\b\b\b\b\b\b\b\bLoAding.. " << flush;
         Sleep(200);
-        std::cout << "\b\b\b\b\b\b\b\b\b\bLoaDing..." << std::flush;
+        cout << "\b\b\b\b\b\b\b\b\b\bLoaDing..." << flush;
         Sleep(200);
-        std::cout << "\b\b\b\b\b\b\b\b\b\bLoadIng.. " << std::flush;
+        cout << "\b\b\b\b\b\b\b\b\b\bLoadIng.. " << flush;
         Sleep(200);
-        std::cout << "\b\b\b\b\b\b\b\b\b\bLoadiNg.  " << std::flush;
+        cout << "\b\b\b\b\b\b\b\b\b\bLoadiNg.  " << flush;
         Sleep(200);
-        std::cout << "\b\b\b\b\b\b\b\b\b\bLoadinG.. " << std::flush;
+        cout << "\b\b\b\b\b\b\b\b\b\bLoadinG.. " << flush;
         Sleep(200);
-        std::cout << "\b\b\b\b\b\b\b\b\b\bLoading..." << std::flush;
+        cout << "\b\b\b\b\b\b\b\b\b\bLoading..." << flush;
         Sleep(200);
     }
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoading.. " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoading.. " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoading.  " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoading.  " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoadinG   " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoadinG   " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoadiN    " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoadiN    " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoadI     " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoadI     " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoaD      " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoaD      " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLoA       " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLoA       " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bLO        " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bLO        " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\bL         " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\bL         " << flush;
     Sleep(100);
-    std::cout << "\b\b\b\b\b\b\b\b\b\b          " << std::flush;
+    cout << "\b\b\b\b\b\b\b\b\b\b          " << flush;
     Sleep(500);
 }
